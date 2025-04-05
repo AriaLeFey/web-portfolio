@@ -16,7 +16,7 @@ export default function Navbar() {
         return null;
 
     const toggleDropdown = async () => {
-        new Promise((resolve, reject) => {
+        new Promise((resolve) => {
             setTimeout(() => {
                 resolve(setDropdownState(!dropdownState));
             }, 100);
