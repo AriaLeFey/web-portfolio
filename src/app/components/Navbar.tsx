@@ -1,6 +1,5 @@
 "use client"
 
-import Link from "next/link";
 import { useState, useEffect } from "react";
 
 import { FaAlignJustify } from "react-icons/fa6";
