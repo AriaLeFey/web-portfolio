@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #16161e;
+  --color-navbar: #16161e;
+  --color-mtext: #9aa5ce;
+}
+
+body {
+    background: rgb(220, 224, 232);
+    
+    @variant dark {
+        background: rgb(30, 30, 46);
+    }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
